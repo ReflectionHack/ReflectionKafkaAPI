@@ -19,7 +19,6 @@ public class KafkaConsumerConfig {
     @Value("${spring.kafka.producer.bootstrap-servers}")
     private String bootstrapServers;
 
-    //TODO: Change value type
     @Bean
     public ConsumerFactory<String, String> consumerFactory() {
         HashMap<String, Object> props = new HashMap<>();

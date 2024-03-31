@@ -27,9 +27,7 @@ public class KafkaInitializer implements SmartLifecycle {
     }
 
     @Override
-    public void stop() {
-
-    }
+    public void stop() {}
 
     @Override
     public boolean isRunning() {
