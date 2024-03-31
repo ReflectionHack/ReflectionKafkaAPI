@@ -24,5 +24,4 @@ public class MessageController {
         messageService.publishMessage(topic, request.message());
     }
 
-
 }
